@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills:*)",
+      "Read(//c/Users/fcalb/.claude/projects/c--Users-fcalb-Projetos-Claude-socialmedia/d0aef194-2803-4d97-93ff-7694e32c05f3/tool-results/**)",
+      "Read(//c/Users/fcalb/.claude/projects/c--Users-fcalb-Projetos-Claude-socialmedia/**)",
+      "Bash(pip install:*)",
+      "Bash(psql --version)",
+      "Bash(pg_config --version)",
+      "Bash(where psql:*)",
+      "Read(//c/Program Files/PostgreSQL/**)",
+      "Bash(\"C:/Program Files/PostgreSQL/18/bin/psql.exe\" --version)",
+      "Bash(PGPASSWORD=\"Latvij@1918\" \"C:/Program Files/PostgreSQL/18/bin/psql.exe\" -U postgres -c \"CREATE DATABASE socialmedia;\")",
+      "Bash(PGPASSWORD=\"Latvij@1918\" \"C:/Program Files/PostgreSQL/18/bin/psql.exe\" -U postgres -d socialmedia -f \"c:/Users/fcalb/Projetos Claude/socialmedia/tools/db/schema.sql\")",
+      "Bash(python -c \":*)",
+      "Read(//c/Users/fcalb/.claude/agents/marketing/copywriting/**)",
+      "Read(//c/Users/fcalb/.claude/agents/marketing/social-content/**)"
+    ]
+  }
+}

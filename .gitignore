@@ -1,0 +1,26 @@
+# Credenciais — NUNCA commitar
+.env
+
+# Arquivos temporários e logs
+temp/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Assets grandes (adicionar ao Git LFS se necessário)
+brand_assets/logos/*.png
+brand_assets/logos/*.jpg
+brand_assets/logos/*.svg
